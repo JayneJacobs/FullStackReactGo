@@ -3,7 +3,7 @@
 https://nodejs.org/en/
 
 ```sh
-root@pr0con2:/var/www# wget https://nodejs.org/dist/v14.3.0/node-v14.3.0-linux-x64.tar.xz
+root@pr0con2:/var/www# wget https://nodejs.org/dist/v13.0.1/node-v13.0.1-linux-x64.tar.xz
 
 root@pr0con2:/var/www# ls
 html  node-v14.3.0-linux-x64.tar.xz  parcel_blueprint
@@ -17,3 +17,8 @@ html  node-v14.3.0-linux-x64  parcel_blueprint
  mv node-v14.3.0-linux-x64/ node/
 ln -s /var/www/node/bin/node /usr/sbin/
 ln -s /var/www/node/bin/npm /usr/sbin/
+
+apt-get install build-essential
+apt-get install make
+apt-get install node-gyp
+

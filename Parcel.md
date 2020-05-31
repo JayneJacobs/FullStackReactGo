@@ -13,23 +13,45 @@ cd /var/www/parcel_blueprint
 npm init -y
 npm install parcel-bundler --save
 npm install --save @babel/core
-npm install --save @babel/plugin-proposal-class-properties
+
+npm install --save plugin-proposal-class-properties
 npm install --save @babel/plugin-transform-runtime 
 npm install --save react react-dom
-				
+npm install parcel-bundler --save
+cd /var/www/parcel_blueprint 
+touch .babelrc
+sudo vi .b abelrc				
 mkdir src
 cd /var/www/parcel_blueprint   
 	-OR src depending on what directory your in	
 				
 touch index.html <-- in src directory
+
+	-make sure you have the . in front of the filename
+
+
+Wrote to /root/package.json:
+
+```
+
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".mongorc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+```	
+
 mkdir Components
 mkdir fonts
 mkdir css
-cd /var/www/parcel_blueprint 
-touch .babelrc
-	-make sure you have the . in front of the filename
-	
-sudo vi .babelrc
+
 type> i 
 	- to insert
 {

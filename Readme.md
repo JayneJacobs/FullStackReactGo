@@ -39,8 +39,6 @@ touch /var/www/parcel_blueprint/dist/index.html
 ## [Install Mongo](./MongoProcedure.md)
 [mongo tutorial](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu)
 
-
-
 from www.Pr0con.com
 
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
@@ -95,5 +93,6 @@ mv phpMyAdmin-4.9.0.1-all-languages/ phpmyadmin
 
 
 ## [Install php and npm](./NodeandGoInstallation.md)
-
+root@pr0con:/var/www/# ln -s /var/www/node/bin/node /usr/sbin/
+root@pr0con:/var/www/#  ln -s /var/www/node/bin/npm /usr/sbin/
 

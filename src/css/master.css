@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Hackman';
   src: url('../fonts/Hackman/Hackman.ttf'); /* IE9 Compat Modes */
-  src: url('../fonts/Hackman/Hackman-Medium.ttf.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/Hackman/Hackman-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 @font-face {
