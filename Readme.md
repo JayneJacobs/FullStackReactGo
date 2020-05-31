@@ -31,7 +31,7 @@ sudo apt update && sudo apt upgrade
 cd /opt/letsencrypt
 
 root@pr0con2:/opt/letsencrypt# sudo -H ./letsencrypt-auto certonly --standalone -d pr0con2.jaynejacobs.com
-  nginx service status
+
   service nginx status
 
 touch /var/www/parcel_blueprint/dist/index.html
