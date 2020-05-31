@@ -94,6 +94,6 @@ rm phpMyAdmin-4.9.0.1-all-languages.zip
 mv phpMyAdmin-4.9.0.1-all-languages/ phpmyadmin
 
 
-## Install php and npm
+## [Install php and npm](./NodeandGoInstallation.md)
 
 
