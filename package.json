@@ -1,0 +1,20 @@
+{
+  "name": "parcel_blueprint",
+  "version": "1.0.0",
+  "description": "## Add [App.js](./src/Components/App.js)",
+  "main": "index.js",
+  "scripts": {
+       "start": "parcel src/index.html --host pr0con2.jaynejacobs.com --https --cert /etc/letsencrypt/live/pr0con2.jaynejacobs.com/cert.pem --key /etc/letsencrypt/live/pr0con2.jaynejacobs.com/privkey.pem --hmr-hostname pr0con2.jaynejacobs.com --hmr-port 5000 --no-autoinstall --no-source-maps",
+       "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayneJacobs/WebGoReact/tree/master/parcel_blueprint/"
+  },
+  "keywords": [
+    "pr0con"
+  ],
+  "author": "JayneJacobs",
+  "license": "ISC"
+}
+
