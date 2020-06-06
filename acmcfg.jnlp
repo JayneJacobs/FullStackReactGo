@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- JNLP File for ACM --> 
+<!-- SERVER_IP=LSAadserv -->
+<!--                                                                          --> 
+<!-- If you are seeing this page in your browser, then your system does not   --> 
+<!-- have JRE 1.5+ with Java (tm) Web Start installed or your browser        --> 
+<!-- does not have a mime type mapping for 'application/x-java-jnlp-file'.    --> 
+<!-- Please check your system configuration and try this page again.          --> 
+<!--                                                                          --> 
+<!-- You can find the JRE in the unsupported directory on the Arris Transit   --> 
+<!-- CD or at the Java (tm) web site.  You can find install and configuration --> 
+<!-- instructions at the Java (tm) web site -- http://java.sun.com            --> 
+<!--                                                                          --> 
+<jnlp 
+  spec="1.0+" 
+  codebase="http://10.38.177.22/"> 
+  <information> 
+    <title>Arris Manager for LSAadserv</title> 
+    <vendor>Arris, Incorporated</vendor> 
+    <description>Arris Manager for LSAadserv</description> 
+    <description kind="short">A graphical tool for configuring the Arris ACM server.</description> 
+    <offline-allowed/> 
+  </information>
+	<security>
+	<all-permissions/>
+	</security>
+  <resources> 
+    <j2se version="1.5+" max-heap-size="128m"/>
+	<jar href="/acmbin/ojdbc14.jar" download="eager"/>
+    <jar href="/acmbin/ACMConfig.jar"/> 
+  </resources> 
+  <application-desc main-class="com.ccor.asg.config.gui.AdConfig"> 
+  <argument>10.38.177.22</argument>
+  <argument>LSAadserv</argument>
+  <argument>Linux</argument>
+  <argument>acm-3.3.0-5</argument>
+  </application-desc>
+</jnlp> 
