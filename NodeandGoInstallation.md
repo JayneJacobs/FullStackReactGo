@@ -14,6 +14,7 @@ root@pr0con2:/var/www# rm *.xz
 root@pr0con2:/var/www# ls
 html  node-v14.3.0-linux-x64  parcel_blueprint
 ```
+
  mv node-v14.3.0-linux-x64/ node/
 ln -s /var/www/node/bin/node /usr/sbin/
 ln -s /var/www/node/bin/npm /usr/sbin/
@@ -21,4 +22,3 @@ ln -s /var/www/node/bin/npm /usr/sbin/
 apt-get install build-essential
 apt-get install make
 apt-get install node-gyp
-
